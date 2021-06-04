@@ -5,7 +5,9 @@ Sonar PDF Report Plugin
 
 适用SonarQube版本 : 8.8.0
 
-编译:mvn clean package -Dmaven.test.skip=true
+编译:
+    mvn license:format
+    mvn clean package -Dmaven.test.skip=true
 
 ## Description / Features
 
